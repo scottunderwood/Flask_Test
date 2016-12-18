@@ -15,8 +15,8 @@ SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'app.db')
 SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
 WHOOSH_BASE = os.path.join(basedir, 'search.db')
 
-# mail server settings
-MAIL_SERVER = 'localhost'
+# email server
+MAIL_SERVER = 'your.mailserver.com'
 MAIL_PORT = 25
 MAIL_USERNAME = None
 MAIL_PASSWORD = None
